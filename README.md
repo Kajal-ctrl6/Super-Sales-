@@ -2,13 +2,13 @@
 I’m excited to share my recent project where I built an interactive Sales Analysis &amp; Forecasting Dashboard using Power BI to uncover trends and predict future performance.
 
 
-📌 Project Overview
+# Project Overview
 
 This project focuses on analyzing historical sales data and forecasting future sales trends using Power BI. The dashboard was designed to help businesses monitor performance, identify growth opportunities, and make data-driven decisions through interactive visualizations and predictive analytics.
 
 By combining data cleaning, transformation, analysis, and forecasting techniques, the dashboard provides a comprehensive view of sales performance across different dimensions while also predicting future sales for proactive planning.
 
-🎯 Business Problem
+# Business Problem
 
 Organizations often struggle to understand sales trends, identify high-performing segments, and anticipate future demand. 
 Without a centralized analytical view, decision-making becomes reactive rather than strategic.
@@ -24,8 +24,9 @@ The goal of this project was to:
 4. Forecast future sales to support inventory and business planning.
 
 5. Enable stakeholders to make informed decisions using data-driven insights.
+   
 
-📂 Dataset Information
+# Dataset Information
 
 The dataset contains transactional sales records including:
 
@@ -46,22 +47,22 @@ The dataset contains transactional sales records including:
 The data was cleaned and transformed to ensure accuracy and consistency before analysis.
 
 
-🔄 Data Preparation & Transformation
+# Data Preparation & Transformation
 
-# Data preprocessing was performed using Power Query
+ * Data preprocessing was performed using Power Query
 
-# Removed duplicate and null values.
+* Removed duplicate and null values.
 
-# Standardized data formats.
+* Standardized data formats.
 
-# Created date hierarchy for time-based analysis.
+* Created date hierarchy for time-based analysis.
 
-# Transformed raw data into a structured format suitable for reporting.
+* Transformed raw data into a structured format suitable for reporting.
 
-# Built relationships between tables for efficient data modeling.
+* Built relationships between tables for efficient data modeling.
 
 
-📊 Dashboard Features
+# Dashboard Features
 
 * Executive KPI Overview
 
@@ -114,7 +115,7 @@ The data was cleaned and transformed to ensure accuracy and consistency before a
 * Support business planning and inventory management.
   
 
-📈 Key Insights Generated
+# Key Insights Generated
 
 1. Sales Trend Analysis
 
@@ -123,7 +124,7 @@ The data was cleaned and transformed to ensure accuracy and consistency before a
 3. Certain periods consistently outperform others, highlighting peak sales windows.
    
 
-📈 Category Performance
+# Category Performance
 
 1. A limited number of categories contribute significantly to overall revenue.
 
@@ -135,7 +136,7 @@ The data was cleaned and transformed to ensure accuracy and consistency before a
 
 5. High-performing categories can be leveraged to maximize profitability.
 
-📈 Forecasting Results
+# Forecasting Results
 
 1. Predicted sales indicate relatively stable future demand.
 
@@ -144,9 +145,9 @@ The data was cleaned and transformed to ensure accuracy and consistency before a
 3. Future projections reduce uncertainty in operational planning.
    
 
-📈 DAX Measures Used
+# DAX Measures Used
 
-# Examples of calculations created using DAX:
+Examples of calculations created using DAX:
 
 * Total Sales = SUM(Sales[Sales Amount])
 
@@ -158,19 +159,19 @@ The data was cleaned and transformed to ensure accuracy and consistency before a
 
 Additional calculated measures were used for trend analysis and KPI tracking.
 
-🛠️ Tools & Technologies
+# Tools & Technologies
 
-Tool	Purpose
+* Tool	Purpose
 
-Power BI - Dashboard Development & Visualization
+1. Power BI - Dashboard Development & Visualization
 
-Power Query	- Data Cleaning & Transformation
+2. Power Query	- Data Cleaning & Transformation
 
-DAX	- Data Modeling & Calculations
+3. DAX	- Data Modeling & Calculations
 
-Microsoft Excel	- Data Source Management
+4. Microsoft Excel	- Data Source Management
 
-🎓 Skills Demonstrated
+# Skills Demonstrated
 
 * Data Cleaning & Transformation
 
@@ -192,7 +193,7 @@ Microsoft Excel	- Data Source Management
 
 * Storytelling with Data
 
-🚀 Project Outcome
+# Project Outcome
 
 The Sales Analysis & Forecasting Dashboard successfully transforms raw sales data into actionable business insights.
 By integrating interactive reporting with predictive analytics, the solution enables stakeholders to monitor performance, identify trends, and make informed decisions based on both historical and forecasted sales data.
