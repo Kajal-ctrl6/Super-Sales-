@@ -15,141 +15,146 @@ Without a centralized analytical view, decision-making becomes reactive rather t
 
 The goal of this project was to:
 
-Analyze historical sales performance.
+1. Analyze historical sales performance.
 
-Identify key sales trends and patterns.
+2. Identify key sales trends and patterns.
 
-Track important KPIs through interactive dashboards.
+3. Track important KPIs through interactive dashboards.
 
-Forecast future sales to support inventory and business planning.
+4. Forecast future sales to support inventory and business planning.
 
-Enable stakeholders to make informed decisions using data-driven insights.
+5. Enable stakeholders to make informed decisions using data-driven insights.
 
 📂 Dataset Information
 
 The dataset contains transactional sales records including:
 
-Order Date
+* Order Date
 
-Sales Amount
+* Sales Amount
 
-Product Categories
+* Product Categories
 
-Customer Information
+* Customer Information
 
-Regional Data
+* Regional Data
 
-Profit Metrics
+* Profit Metrics
 
-Order Performance Indicators
+* Order Performance Indicators
 
 The data was cleaned and transformed to ensure accuracy and consistency before analysis.
 
+
 🔄 Data Preparation & Transformation
 
-Data preprocessing was performed using Power Query:
+# Data preprocessing was performed using Power Query
 
-Removed duplicate and null values.
+# Removed duplicate and null values.
 
-Standardized data formats.
+# Standardized data formats.
 
-Created date hierarchy for time-based analysis.
+# Created date hierarchy for time-based analysis.
 
-Transformed raw data into a structured format suitable for reporting.
+# Transformed raw data into a structured format suitable for reporting.
 
-Built relationships between tables for efficient data modeling.
+# Built relationships between tables for efficient data modeling.
+
 
 📊 Dashboard Features
 
-Executive KPI Overview
+* Executive KPI Overview
 
-Provides a quick snapshot of key business metrics:
+* Provides a quick snapshot of key business metrics:
 
-Total Sales
+* Total Sales
 
-Total Profit
+* Total Profit
 
-Total Orders
+* Total Orders
 
-Growth Trends
+* Growth Trends
 
-Forecasted Sales
+* Forecasted Sales
 
-Sales Performance Analysis
+* Sales Performance Analysis
 
-Analyzes sales trends across:
+* Analyzes sales trends across:
 
-Time (Daily, Monthly, Yearly)
+* Time (Daily, Monthly, Yearly)
 
-Product Categories
+* Product Categories
 
-Regions
+* Regions
 
-Customer Segments
+* Customer Segments
 
-Interactive Filtering
+* Interactive Filtering
 
-Users can dynamically filter reports based on:
+# Users can dynamically filter reports based on:
 
-Date Range
+* Date Range
 
-Product Category
+* Product Category
 
-Region
+* Region
 
-Customer Segment
+* Customer Segment
 
-Time Series Forecasting
+* Time Series Forecasting
 
-Implemented Power BI forecasting capabilities to:
+# Implemented Power BI forecasting capabilities to:
 
-Analyze historical sales behavior.
+* Analyze historical sales behavior.
 
-Identify seasonal trends.
+* Identify seasonal trends.
 
-Predict sales for the next 15 days.
+* Predict sales for the next 15 days.
 
-Support business planning and inventory management.
+* Support business planning and inventory management.
+  
 
 📈 Key Insights Generated
 
-Sales Trend Analysis
+1. Sales Trend Analysis
 
-Sales exhibit recurring fluctuations indicating seasonality and varying customer demand.
+2. Sales exhibit recurring fluctuations indicating seasonality and varying customer demand.
 
-Certain periods consistently outperform others, highlighting peak sales windows.
+3. Certain periods consistently outperform others, highlighting peak sales windows.
+   
 
-Category Performance
+📈 Category Performance
 
-A limited number of categories contribute significantly to overall revenue.
+1. A limited number of categories contribute significantly to overall revenue.
 
-Some categories show potential for optimization and targeted marketing efforts.
+2. Some categories show potential for optimization and targeted marketing efforts.
 
-Business Growth Opportunities
+3. Business Growth Opportunities
 
-Underperforming segments can be improved through focused strategies.
+4. Underperforming segments can be improved through focused strategies.
 
-High-performing categories can be leveraged to maximize profitability.
+5. High-performing categories can be leveraged to maximize profitability.
 
-Forecasting Results
+📈 Forecasting Results
 
-Predicted sales indicate relatively stable future demand.
+1. Predicted sales indicate relatively stable future demand.
 
-Forecasting helps businesses prepare inventory and resource allocation in advance.
+2. Forecasting helps businesses prepare inventory and resource allocation in advance.
 
-Future projections reduce uncertainty in operational planning.
+3. Future projections reduce uncertainty in operational planning.
+   
 
 📈 DAX Measures Used
 
-Examples of calculations created using DAX:
+# Examples of calculations created using DAX:
 
-Total Sales = SUM(Sales[Sales Amount])
+* Total Sales = SUM(Sales[Sales Amount])
 
-Total Profit = SUM(Sales[Profit])
+* Total Profit = SUM(Sales[Profit])
 
-Total Orders = DISTINCTCOUNT(Sales[Order ID])
+* Total Orders = DISTINCTCOUNT(Sales[Order ID])
 
-Average Sales = AVERAGE(Sales[Sales Amount])
+* Average Sales = AVERAGE(Sales[Sales Amount])
 
 Additional calculated measures were used for trend analysis and KPI tracking.
 
@@ -157,35 +162,35 @@ Additional calculated measures were used for trend analysis and KPI tracking.
 
 Tool	Purpose
 
-Power BI	Dashboard Development & Visualization
+Power BI - Dashboard Development & Visualization
 
-Power Query	Data Cleaning & Transformation
+Power Query	- Data Cleaning & Transformation
 
-DAX	Data Modeling & Calculations
+DAX	- Data Modeling & Calculations
 
-Microsoft Excel	Data Source Management
+Microsoft Excel	- Data Source Management
 
 🎓 Skills Demonstrated
 
-Data Cleaning & Transformation
+* Data Cleaning & Transformation
 
-Data Modeling
+* Data Modeling
 
-Business Intelligence Reporting
+* Business Intelligence Reporting
 
-Dashboard Design
+* Dashboard Design
 
-KPI Development
+* KPI Development
 
-Data Visualization
+* Data Visualization
 
-Time Series Forecasting
+* Time Series Forecasting
 
-Analytical Thinking
+* Analytical Thinking
 
-Business Insights Generation
+* Business Insights Generation
 
-Storytelling with Data
+* Storytelling with Data
 
 🚀 Project Outcome
 
